@@ -70,10 +70,10 @@ SELECT * FROM tb_pizzaria;
 -- inserindo dados na tabela Produtos
 INSERT INTO tb_categoria(tipo, massa, fk_pizzaria)
 VALUES
-("Salgada","Comum",1),
+("Salgada","Folhada",1),
 ("Doce","Comum",8),
 ("Salgada","Comum",2),
-("Salgada","Comum",3),
+("Salgada","Light",3),
 ("Salgada","Vegana",5);
 
 SELECT * FROM tb_categoria;
